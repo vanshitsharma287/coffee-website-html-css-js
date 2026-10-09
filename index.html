@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Paradise - Handcrafted Artisan Coffee</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Header & Navbar -->
+        <header class="navbar">
+            <nav class="d-flex justify-between align-center">
+                <a href="#home" class="nav-brand d-flex align-center">
+                    <img src="./images/hot-beverages.png" alt="Coffee Cup Logo">
+                    <h1>Coffee</h1>
+                </a>
+
+                <ul class="d-flex list-none nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <button class="hamburger-menu" id="hamburger-btn" aria-label="Toggle navigation menu"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Home / Hero Section -->
+        <section class="home-section" id="home">
+            <div class="home-info d-flex justify-between align-center">
+                <div class="left-home-info">
+                    <article>
+                        <span class="coffee">Best Coffee</span>
+                        <h2><strong>MAKE YOUR DAY GREAT WITH OUR SPECIAL COFFEE!</strong></h2>
+                        <p class="mt-2">Welcome to our coffee paradise, where every bean tells a story and every cup
+                            sparks joy.</p>
+                        <div class="left-home-btn mt-2">
+                            <a href="#menu">Order Now</a>
+                            <a href="#contact">Contact Us</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="right-home-img">
+                    <img src="./images/coffee-hero-section.png" alt="Special Artisan Coffee">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-section d-flex justify-between" id="about">
+            <div class="about-left-section">
+                <img src="./images/about-image.jpg" alt="About Coffee House Atmosphere">
+            </div>
+
+            <div class="about-right-section d-flex flex-column align-center">
+                <h1>ABOUT US</h1>
+                <div class="horizontal-line"></div>
+                <p class="mt-2">At Coffee House in Berndorf, Germany, we pride ourselves on being a
+                    go-to destination for coffee lovers and conversation seekers alike.
+                    We're dedicated to providing an exceptional coffee experience in a
+                    cozy and inviting atmosphere, where guests can relax, unwind, and
+                    enjoy their time in comfort.</p>
+                <div class="home-icon d-flex mt-2">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+            <h2 class="text-center">OUR MENU</h2>
+            <div class="horizontal-line"></div>
+            <div class="menu-info">
+                <div class="menu-card">
+                    <img src="./images/hot-beverages.png" alt="Hot Beverages">
+                    <h3>Hot Beverages</h3>
+                    <p>Wide range of steaming hot coffee to make you fresh and light.</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="./images/cold-beverages.png" alt="Cold Beverages">
+                    <h3>Cold Beverages</h3>
+                    <p>Creamy and frothy cold coffee to keep you cool and energized.</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="./images/refreshment.png" alt="Refreshment Drinks">
+                    <h3>Refreshment</h3>
+                    <p>Fruit and icy refreshing drinks to revitalize your senses.</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="./images/special-combo.png" alt="Special Combos">
+                    <h3>Special Combos</h3>
+                    <p>Your favorite eating and drinking combinations crafted with care.</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="./images/desserts.png" alt="Delicious Desserts">
+                    <h3>Desserts</h3>
+                    <p>Satiate your palate and take you on a delightful culinary treat.</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="./images/burger-frenchfries.png" alt="Burger and French Fries">
+                    <h3>Burger & French Fries</h3>
+                    <p>Crispy and savory quick bites to satisfy your cravings.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonial-section" id="testimonial">
+            <h2 class="text-center">TESTIMONIALS</h2>
+            <div class="horizontal-line"></div>
+
+            <div class="testimonial-carousel">
+                <div class="testimonial-carousel-slides active">
+                    <div class="testimonial-carousel-card">
+                        <img src="./images/user-1.jpg" alt="Sarah Johnson portrait">
+                        <strong>Sarah Johnson</strong>
+                        <p>"Loved the French roast perfectly balanced and rich will order again!"</p>
+                    </div>
+
+                    <div class="testimonial-carousel-card">
+                        <img src="./images/user-2.jpg" alt="James Wilson portrait">
+                        <strong>James Wilson</strong>
+                        <p>"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</p>
+                    </div>
+
+                    <div class="testimonial-carousel-card">
+                        <img src="./images/user-3.jpg" alt="Michael Brown portrait">
+                        <strong>Michael Brown</strong>
+                        <p>"Fantastic Mocha flavor. Fresh and aromatic. Quick shipping!"</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-carousel-slides">
+                    <div class="testimonial-carousel-card">
+                        <img src="./images/user-4.jpg" alt="Emily Haris portrait">
+                        <strong>Emily Haris</strong>
+                        <p>"Excellent quality! Fresh beans and quick delivery. Highly recommended."</p>
+                    </div>
+
+                    <div class="testimonial-carousel-card">
+                        <img src="./images/user-5.jpg" alt="Anthony Thompson portrait">
+                        <strong>Anthony Thompson</strong>
+                        <p>"Best decaf I ever tried! Smooth and flavorful. Arrived promptly."</p>
+                    </div>
+
+                    <div class="testimonial-carousel-card">
+                        <img src="./images/user-2.jpg" alt="James Wilson portrait">
+                        <strong>James Wilson</strong>
+                        <p>"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</p>
+                    </div>
+                </div>
+
+                <button class="left-btn" aria-label="Previous Testimonial">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="right-btn" aria-label="Next Testimonial">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="text-center">GALLERY</h2>
+            <div class="horizontal-line"></div>
+            <div class="gallery-images">
+                <img src="./images/gallery-1.jpg" alt="Coffee beans and brewing">
+                <img src="./images/gallery-2.jpg" alt="Espresso machine brewing cup">
+                <img src="./images/gallery-3.jpg" alt="Freshly poured latte art">
+                <img src="./images/gallery-4.jpg" alt="Cozy coffee house corner">
+                <img src="./images/gallery-5.jpg" alt="Artisan iced coffee glass">
+                <img src="./images/gallery-6.jpg" alt="Bakery treats and espresso">
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contactUs-section" id="contact">
+            <h2 class="text-center">CONTACT US</h2>
+            <div class="horizontal-line"></div>
+            <div class="contact-info d-flex justify-between">
+                <div class="contactUsInfo-left">
+                    <p><i class="fa-solid fa-location-dot"></i> 123 Campsite Avenue, Wilderness, 98765</p>
+                    <p><i class="fa-regular fa-envelope"></i> info@coffeeshopwebsite.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fa-regular fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p><i class="fa-regular fa-clock"></i> Saturday: 10:00 AM - 3:00 PM</p>
+                    <p><i class="fa-solid fa-globe"></i> www.codingvanweb.com</p>
+                </div>
+
+                <div class="contactInfo-right">
+                    <form class="contact-form" action="#" method="post">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer-section">
+            <div class="footer-content d-flex justify-between align-center">
+                <div class="footer-year">
+                    <p>&copy; 2026 Coffee Shop. All rights reserved.</p>
+                </div>
+
+                <div class="footer-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="footer-policy">
+                    <p><a href="#">Privacy Policy</a> &middot; <a href="#">Refund Policy</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Interactive Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
